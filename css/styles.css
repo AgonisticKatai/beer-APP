@@ -1,0 +1,60 @@
+body {
+  background-image: url('../img/beerslide3.jpg');
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+section .hidden {
+  visibility: hidden;
+}
+
+.beerList {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-top: 50px;
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  height: 600px;
+  overflow: auto;
+}
+
+.beerList li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.beerCard {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 20px;
+  margin-top: 50px;
+  height: 600px;
+  overflow: auto;
+}
+ .beerCard h3 {
+  color: white;
+  text-align: center;
+  box-shadow: 20px 3px 20px black;
+  padding: 10px 0;
+  margin-bottom: 10px;
+ }
+
+ .beerCard p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+ }
+
+ .scroll-info {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+ }
+
